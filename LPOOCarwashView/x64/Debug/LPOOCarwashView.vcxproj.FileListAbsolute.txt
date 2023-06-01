@@ -1,0 +1,92 @@
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.AssemblyReference.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmInicioSesion.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.GenerateResource.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmventanaNuevoUsuario.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServicios.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.CopyComplete
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalCliente.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalPersonal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmEditarPersonal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonalDetalle.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmCliente.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursales.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursalNuevo.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServiciosRegistrados.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.AssemblyReference.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.SuggestedBindingRedirects.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmCliente.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmEditarPersonal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmInicioSesion.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonalDetalle.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalCliente.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalPersonal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServicios.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServiciosRegistrados.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursales.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursalNuevo.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmventanaNuevoUsuario.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.GenerateResource.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.CopyComplete
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.AssemblyReference.cache
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.SuggestedBindingRedirects.cache
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmCliente.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmEditarPersonal.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmInicioSesion.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmNuevoServicio.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPedidosServicios.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonal.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonalDetalle.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipal.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalCliente.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalPersonal.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServicios.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServiciosRegistrados.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursales.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursalNuevo.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmventanaNuevoUsuario.resources
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.GenerateResource.cache
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.CopyComplete
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.AssemblyReference.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.SuggestedBindingRedirects.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmCliente.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmEditarPersonal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmInicioSesion.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmNuevoServicio.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPedidosServicios.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonalDetalle.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalCliente.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalPersonal.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServicios.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServiciosRegistrados.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursales.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursalNuevo.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmventanaNuevoUsuario.resources
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.GenerateResource.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.CopyComplete
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.AssemblyReference.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmCliente.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmEditarPersonal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmInicioSesion.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmNuevoServicio.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPedidosServicios.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPersonalDetalle.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalCliente.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmPrincipalPersonal.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServicios.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmServiciosRegistrados.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursales.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmSucursalNuevo.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmventanaNuevoUsuario.resources
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.GenerateResource.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.vcxproj.CopyComplete
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashView\x64\Debug\LPOOCarwashView.frmBoleta.resources

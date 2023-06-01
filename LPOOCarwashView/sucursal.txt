@@ -1,0 +1,11 @@
+Jesus María;Jr. Almenara 234;250;40000
+Miraflores;Calle de los Payasos Locos;18;38000
+Barranco;Avenida de las Carcajadas;15;29000
+Surco;Jirón de las Risas Infinitas;12;24000
+San Isidro;Calle del Caos Controlado;20;45000
+La Victoria;Avenida de las Locuras Desbordantes;10;20000
+San Miguel;Jirón de los Desatinos;14;31000
+Breña;Calle del Desorden Divertido;11;23000
+Lince;Calle de las Risas Incontrolables;13;27000
+Villa El Salvador;Jirón del Humor Absurdo;19;42000
+Ate;Gaaaa;32;0

@@ -1,0 +1,3 @@
+Bryan;Jara;50000;71123456
+Mijail;Molina;10000;71234567
+Mauricio;Leon;20000;73239739

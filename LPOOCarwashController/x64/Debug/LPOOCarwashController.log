@@ -1,0 +1,10 @@
+﻿  ServicioController.cpp
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\ServicioController.cpp(160,22): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+  SucursalController.cpp
+  clienteController.cpp
+  gerenteController.cpp
+  personalController.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generando código...
+  clienteController.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  LPOOCarwashController.vcxproj -> C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\x64\Debug\LPOOCarwashController.dll

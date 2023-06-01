@@ -1,0 +1,89 @@
+  LPOOCarwashView.frmBoleta.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmCliente.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmEditarPersonal.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmInicioSesion.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmNuevoServicio.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmPedidosServicios.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmPersonal.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmPersonalDetalle.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmPrincipal.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmPrincipalCliente.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmPrincipalPersonal.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmServicios.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmServiciosRegistrados.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmSucursales.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmSucursalNuevo.resources - Embedded, ContainedInManifestFile, 
+  LPOOCarwashView.frmventanaNuevoUsuario.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly LPOOCarwashView, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly LPOOCarwashController, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly LPOOCarwashModel, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class LPOOCarwashView.frmBoleta: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmCliente: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmEditarPersonal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(LPOOCarwashModel.Personal): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmventanaNuevoUsuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmServicios: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmServiciosRegistrados: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(LPOOCarwashModel.Cliente, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(LPOOCarwashModel.Cliente): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmNuevoServicio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(LPOOCarwashModel.Cliente): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmPrincipalCliente: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(LPOOCarwashModel.Cliente): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmPersonalDetalle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmPersonal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmSucursalNuevo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmSucursales: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmPedidosServicios: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmPrincipalPersonal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(LPOOCarwashModel.Personal): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmPrincipal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LPOOCarwashView.frmInicioSesion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

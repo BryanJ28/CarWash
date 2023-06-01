@@ -1,0 +1,5 @@
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashModel\x64\Debug\LPOOCarwashModel.vcxproj.AssemblyReference.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashModel\x64\Debug\LPOOCarwashModel.vcxproj.AssemblyReference.cache
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashModel\x64\Debug\LPOOCarwashModel.vcxproj.AssemblyReference.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashModel\x64\Debug\LPOOCarwashModel.vcxproj.AssemblyReference.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashModel\x64\Debug\LPOOCarwashModel.vcxproj.AssemblyReference.cache

@@ -1,0 +1,67 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly LPOOCarwashController, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly LPOOCarwashModel, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class LPOOCarwashController.clienteController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    buscarCliente(String, String, String): PrivateScope, Public, HideBySig
+    buscarAll(): PrivateScope, Public, HideBySig
+    eliminarCliente(Int32): PrivateScope, Public, HideBySig
+    escribirArchivoCliente(List`1): PrivateScope, Public, HideBySig
+    agregarCliente(String, String, Int32, Int32, Int32, String): PrivateScope, Public, HideBySig
+    buscarUsuarioEnCliente(String, String, String): PrivateScope, Public, HideBySig
+    buscarClientexIdentificacion(Int32): PrivateScope, Public, HideBySig
+Class LPOOCarwashController.gerenteController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    buscarGerente(String, String): PrivateScope, Public, HideBySig
+    buscarAll(): PrivateScope, Public, HideBySig
+    eliminarGerente(Int32): PrivateScope, Public, HideBySig
+    escribirArchivo(List`1): PrivateScope, Public, HideBySig
+    buscarGerentexIdentificacion(Int32): PrivateScope, Public, HideBySig
+    actualizarGerente(Gerente): PrivateScope, Public, HideBySig
+    agregarGerente(String, String, Double, Int32): PrivateScope, Public, HideBySig
+    buscarUsuarioEnGerente(String, String, String): PrivateScope, Public, HideBySig
+Class LPOOCarwashController.personalController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    buscarPersonal(String, String): PrivateScope, Public, HideBySig
+    buscarAll(): PrivateScope, Public, HideBySig
+    eliminarPersonal(Int32): PrivateScope, Public, HideBySig
+    escribirArchivo(List`1): PrivateScope, Public, HideBySig
+    buscarPersonalxIdentificacion(Int32): PrivateScope, Public, HideBySig
+    actualizarPersonal(Personal): PrivateScope, Public, HideBySig
+    agregarPersonal(String, String, Double, Int32): PrivateScope, Public, HideBySig
+    buscarUsuarioEnPersonal(String, String, String): PrivateScope, Public, HideBySig
+Class LPOOCarwashController.ServicioController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    buscarServicio(String, String): PrivateScope, Public, HideBySig
+    buscarAll(): PrivateScope, Public, HideBySig
+    eliminarServicio(Int32): PrivateScope, Public, HideBySig
+    escribirArchivo(List`1): PrivateScope, Public, HideBySig
+    buscarServicioxIdentificacion(Int32): PrivateScope, Public, HideBySig
+    actualizarServicio(Servicio): PrivateScope, Public, HideBySig
+    agregarServicio(String, String, Int32, String, String, String): PrivateScope, Public, HideBySig
+    buscarUsuarioEnServicio(String, String, String): PrivateScope, Public, HideBySig
+    pedirServicio(String, String, Int32, String, String, String): PrivateScope, Public, HideBySig
+    buscarLavado(Int32): PrivateScope, Public, HideBySig
+    VerificarEstado(Int32): PrivateScope, Public, HideBySig
+    eliminarLavado(Int32): PrivateScope, Public, HideBySig
+    buscarAllLavado(): PrivateScope, Public, HideBySig
+    escribirArchivoLavado(List`1): PrivateScope, Public, HideBySig
+    agregarLavado(Int32, String, Int32, String, String): PrivateScope, Public, HideBySig
+Class LPOOCarwashController.SucursalController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    buscarSucursal(String): PrivateScope, Public, HideBySig
+    buscarAll(): PrivateScope, Public, HideBySig
+    eliminarSucursal(String): PrivateScope, Public, HideBySig
+    escribirArchivo(List`1): PrivateScope, Public, HideBySig
+    agregarSucursal(String, String, Int32, Int32): PrivateScope, Public, HideBySig

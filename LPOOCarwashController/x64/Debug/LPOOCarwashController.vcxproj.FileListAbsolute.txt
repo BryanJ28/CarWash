@@ -1,0 +1,10 @@
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.AssemblyReference.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.CopyComplete
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.AssemblyReference.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.CopyComplete
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.AssemblyReference.cache
+D:\Descargas\Proyecto Carwash.1.0\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.CopyComplete
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.AssemblyReference.cache
+D:\PUCP-2023-1\LPO\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.CopyComplete
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.AssemblyReference.cache
+C:\Users\mleon\OneDrive\Escritorio\Proyecto Carwash.1.5\Proyecto Carwash\LPOOCarwash\LPOOCarwashController\x64\Debug\LPOOCarwashController.vcxproj.CopyComplete

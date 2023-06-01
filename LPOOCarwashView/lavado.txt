@@ -1,0 +1,20 @@
+1;Policarbonato;15;9:30;Ocupado
+2;Aleación de aluminio;20;11:45;Finalizado
+3;Fibra de vidrio reforzada;25;14:15;Ocupado
+4;Policarbonato;40;10:20;Ocupado
+6;Fibra de vidrio reforzada;20;15:50;Finalizado
+7;Policarbonato;25;9:15;Ocupado
+8;Aleación de aluminio;40;18:30;Ocupado
+9;Fibra de vidrio reforzada;15;13:40;Ocupado
+10;Policarbonato;20;16:55;Finalizado
+11;Aleación de aluminio;25;12:10;Ocupado
+12;Fibra de vidrio reforzada;40;17:25;Finalizado
+13;Policarbonato;15;11:30;Ocupado
+14;Aleación de aluminio;20;14:45;Finalizado
+15;Fibra de vidrio reforzada;25;16:15;Ocupado
+16;Policarbonato;40;12:20;Ocupado
+17;Aleación de aluminio;15;17:05;Finalizado
+18;Fibra de vidrio reforzada;20;10:50;Finalizado
+19;Policarbonato;25;8:45;Ocupado
+20;Aleación de aluminio;40;19:00;Ocupado
+5;Policarbonato;30;12:40;Ocupado

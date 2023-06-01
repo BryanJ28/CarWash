@@ -1,0 +1,2 @@
+#include "frmPersonalDetalle.h"
+

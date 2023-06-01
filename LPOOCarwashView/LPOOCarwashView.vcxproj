@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{62F60097-8B9F-4F2C-93C0-9242156AA264}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>LPOOCarwashView</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="frmBoleta.cpp" />
+    <ClCompile Include="frmCliente.cpp" />
+    <ClCompile Include="frmConfirmacionCompra.cpp" />
+    <ClCompile Include="frmEditarPersonal.cpp" />
+    <ClCompile Include="frmInicioSesion.cpp" />
+    <ClCompile Include="frmNuevoServicio.cpp" />
+    <ClCompile Include="frmPedidosServicios.cpp" />
+    <ClCompile Include="frmPersonal.cpp" />
+    <ClCompile Include="frmPersonalDetalle.cpp" />
+    <ClCompile Include="frmPrincipal.cpp" />
+    <ClCompile Include="frmPrincipalCliente.cpp" />
+    <ClCompile Include="frmPrincipalPersonal.cpp" />
+    <ClCompile Include="frmServicios.cpp" />
+    <ClCompile Include="frmServiciosRegistrados.cpp" />
+    <ClCompile Include="frmSucursales.cpp" />
+    <ClCompile Include="frmSucursalNuevo.cpp" />
+    <ClCompile Include="frmventanaNuevoUsuario.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="frmBoleta.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmConfirmacionCompra.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarPersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmInicioSesion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoServicio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPedidosServicios.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPersonalDetalle.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPrincipal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPrincipalCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPrincipalPersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmServicios.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmServiciosRegistrados.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmSucursales.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmSucursalNuevo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmventanaNuevoUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBoleta.resx">
+      <DependentUpon>frmBoleta.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente.resx">
+      <DependentUpon>frmCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfirmacionCompra.resx">
+      <DependentUpon>frmConfirmacionCompra.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarPersonal.resx">
+      <DependentUpon>frmEditarPersonal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSesion.resx">
+      <DependentUpon>frmInicioSesion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoServicio.resx">
+      <DependentUpon>frmNuevoServicio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPedidosServicios.resx">
+      <DependentUpon>frmPedidosServicios.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonal.resx">
+      <DependentUpon>frmPersonal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonalDetalle.resx">
+      <DependentUpon>frmPersonalDetalle.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipalCliente.resx">
+      <DependentUpon>frmPrincipalCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipalPersonal.resx">
+      <DependentUpon>frmPrincipalPersonal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServicios.resx">
+      <DependentUpon>frmServicios.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServiciosRegistrados.resx">
+      <DependentUpon>frmServiciosRegistrados.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSucursales.resx">
+      <DependentUpon>frmSucursales.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSucursalNuevo.resx">
+      <DependentUpon>frmSucursalNuevo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmventanaNuevoUsuario.resx">
+      <DependentUpon>frmventanaNuevoUsuario.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LPOOCarwashController\LPOOCarwashController.vcxproj">
+      <Project>{dfd2d39e-caf4-44a9-a179-e1c1d778c598}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LPOOCarwashModel\LPOOCarwashModel.vcxproj">
+      <Project>{85e0ff97-e96b-438c-99a5-11c0df716b00}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
