@@ -1,135 +1,112 @@
 #include "ClienteController.h"
 
-using namespace System::IO; // para trabajar con archivos controller
 using namespace System;
 using namespace System::Data::SqlClient;
 using namespace LPOOCarwashController;
 using namespace LPOOCarwashModel;
 
 clienteController::clienteController() {
-	this->objConexion = gcnew SqlConnection();
+    this->objConexion = gcnew SqlConnection();
+}
+
+int clienteController::buscarUsuarioEnCliente(String^ nombre, String^ apellido, String^ identificacion) {
+    int clase = 0;
+    abrirConexion();
+    SqlCommand^ objSentencia = gcnew SqlCommand();
+    objSentencia->Connection = this->objConexion;
+    objSentencia->CommandText = "select * from _Cliente where nombre like '%" + nombre + "%' and apellido like '%" + apellido + "%' and identificacion = '" + identificacion + "';";
+    SqlDataReader^ objData = objSentencia->ExecuteReader();
+    if (objData->Read()) {
+        clase = 1;
+    }
+    cerrarConexion();
+    return clase;
 }
 
 List<Cliente^>^ clienteController::buscarCliente(String^ nombre, String^ apellido, String^ identificacion) {
-	List<Cliente^>^ listaClienteEncontrados = gcnew List<Cliente^>();
-	abrirConexion();
-	SqlCommand^ objSentencia = gcnew SqlCommand();
-	objSentencia->Connection = this->objConexion;
-	objSentencia->CommandText = "select * from _Cliente where identificacion like '%" + identificacion + "%' and nombre like '%" + nombre + "%' and apellidoPaterno like '%" + apellido + "%';";
-	SqlDataReader^ objData = objSentencia->ExecuteReader();
-	while (objData->Read()) {
-		int codigo = safe_cast<int>(objData[0]);
-		String^ nombre = safe_cast<String^>(objData[1]);
-		String^ apellidoPaterno = safe_cast<String^>(objData[2]);
-		String^ apellidoMaterno = safe_cast<String^>(objData[3]);
-		String^ identificacion = safe_cast<String^>(objData[4]);
-		int edad = safe_cast<int>(objData[5]);
-		int celular = safe_cast<int>(objData[6]);
-		String^ sexo = safe_cast<String^>(objData[7]);
-		Cliente^ objCliente = gcnew Cliente(codigo, nombre, apellidoPaterno, apellidoMaterno, identificacion, edad, celular, sexo);
-		listaClienteEncontrados->Add(objCliente);
-	}
-	cerrarConexion();
-	return listaClienteEncontrados;
+    List<Cliente^>^ listaClienteEncontrados = gcnew List<Cliente^>();
+    abrirConexion();
+    SqlCommand^ objSentencia = gcnew SqlCommand();
+    objSentencia->Connection = this->objConexion;
+    objSentencia->CommandText = "select * from _Cliente where identificacion like '%" + identificacion + "%' and nombre like '%" + nombre + "%' and apellido like '%" + apellido + "%';";
+    SqlDataReader^ objData = objSentencia->ExecuteReader();
+    while (objData->Read()) {
+        String^ nombreCliente = safe_cast<String^>(objData[1]);
+        String^ apellidoCliente = safe_cast<String^>(objData[2]);
+        int identificacionCliente = safe_cast<int>(objData[3]);
+        int edad = safe_cast<int>(objData[4]);
+        int celular = safe_cast<int>(objData[5]);
+        String^ sexo = safe_cast<String^>(objData[6]);
+        Cliente^ objCliente = gcnew Cliente(nombreCliente, apellidoCliente, identificacionCliente, edad, celular, sexo);
+        listaClienteEncontrados->Add(objCliente);
+    }
+    cerrarConexion();
+    return listaClienteEncontrados;
 }
 
 List<Cliente^>^ clienteController::buscarAll() {
-	List<Cliente^>^ listaClienteEncontrados = gcnew List<Cliente^>();
-	abrirConexion();
-	SqlCommand^ objSentencia = gcnew SqlCommand();
-	objSentencia->Connection = this->objConexion;
-	objSentencia->CommandText = "select * from _Cliente";
-	SqlDataReader^ objData = objSentencia->ExecuteReader();
-	while (objData->Read()) {
-		int codigo = safe_cast<int>(objData[0]);
-		String^ nombre = safe_cast<String^>(objData[1]);
-		String^ apellidoPaterno = safe_cast<String^>(objData[2]);
-		String^ apellidoMaterno = safe_cast<String^>(objData[3]);
-		String^ identificacion = safe_cast<String^>(objData[4]);
-		int edad = safe_cast<int>(objData[5]);
-		int celular = safe_cast<int>(objData[6]);
-		String^ sexo = safe_cast<String^>(objData[7]);
-		Cliente^ objCliente = gcnew Cliente(codigo, nombre, apellidoPaterno, apellidoMaterno, identificacion, edad, celular, sexo);
-		listaClienteEncontrados->Add(objCliente);
-	}
-	cerrarConexion();
-	return listaClienteEncontrados;
+    List<Cliente^>^ listaClienteEncontrados = gcnew List<Cliente^>();
+    abrirConexion();
+    SqlCommand^ objSentencia = gcnew SqlCommand();
+    objSentencia->Connection = this->objConexion;
+    objSentencia->CommandText = "select * from _Cliente";
+    SqlDataReader^ objData = objSentencia->ExecuteReader();
+    while (objData->Read()) {
+        String^ nombreCliente = safe_cast<String^>(objData[1]);
+        String^ apellidoCliente = safe_cast<String^>(objData[2]);
+        int identificacionCliente = safe_cast<int>(objData[3]);
+        int edad = safe_cast<int>(objData[4]);
+        int celular = safe_cast<int>(objData[5]);
+        String^ sexo = safe_cast<String^>(objData[6]);
+        Cliente^ objCliente = gcnew Cliente(nombreCliente, apellidoCliente, identificacionCliente, edad, celular, sexo);
+        listaClienteEncontrados->Add(objCliente);
+    }
+    cerrarConexion();
+    return listaClienteEncontrados;
+}
+void clienteController::eliminarCliente(int identificacion) {
+    abrirConexion();
+    SqlCommand^ objSentencia = gcnew SqlCommand();
+    objSentencia->Connection = this->objConexion;
+    objSentencia->CommandText = "DELETE FROM _Cliente WHERE identificacion=" + identificacion + ";";
+    objSentencia->ExecuteReader();
+    cerrarConexion();
 }
 
-void clienteController::eliminarCliente(int codigo) {
-	abrirConexion();
-	SqlCommand^ objSentencia = gcnew SqlCommand();
-	objSentencia->Connection = this->objConexion;
-	objSentencia->CommandText = "DELETE FROM _Cliente WHERE codigo=" + codigo + ";";
-	objSentencia->ExecuteReader();
-	cerrarConexion();
-}
-Cliente^ clienteController::buscarClientexCodigo(int codigo) {
-	Cliente^ ClienteEncontrado = nullptr;
-	abrirConexion();
-	SqlCommand^ objSentencia = gcnew SqlCommand();
-	objSentencia->Connection = this->objConexion;
-	objSentencia->CommandText = "select * from _Cliente where codigo='" + codigo + "';";
-	SqlDataReader^ objData = objSentencia->ExecuteReader();
-	while (objData->Read()) {
-		int codigo = safe_cast<int>(objData[0]);
-		String^ nombre = safe_cast<String^>(objData[1]);
-		String^ apellidoPaterno = safe_cast<String^>(objData[2]);
-		String^ apellidoMaterno = safe_cast<String^>(objData[3]);
-		String^ identificacion = safe_cast<String^>(objData[4]);
-		int edad = safe_cast<int>(objData[5]);
-		int celular = safe_cast<int>(objData[6]);
-		String^ sexo = safe_cast<String^>(objData[7]);
-		ClienteEncontrado =  gcnew Cliente(codigo, nombre, apellidoPaterno, apellidoMaterno, identificacion, edad, celular, sexo);
-	}
-	cerrarConexion();
-	return ClienteEncontrado;
+void clienteController::agregarCliente(String^ nombre, String^ apellido, int identificacion, int edad, int celular, String^ sexo) {
+    abrirConexion();
+    SqlCommand^ objSentencia = gcnew SqlCommand();
+    objSentencia->Connection = this->objConexion;
+    objSentencia->CommandText = "INSERT INTO _Cliente(nombre, apellido, identificacion, edad, celular, sexo) VALUES('" + nombre + "','" + apellido + "'," + identificacion + "," + edad + "," + celular + ",'" + sexo + "');";
+    objSentencia->ExecuteReader();
+    cerrarConexion();
 }
 
-Cliente^ clienteController::buscarClientexIdentificacion(String^ identificacion) {
-	Cliente^ ClienteEncontrado = nullptr;
-	abrirConexion();
-	SqlCommand^ objSentencia = gcnew SqlCommand();
-	objSentencia->Connection = this->objConexion;
-	objSentencia->CommandText = "select * from _Cliente where identificacion='" + identificacion + "';";
-	SqlDataReader^ objData = objSentencia->ExecuteReader();
-	while (objData->Read()) {
-		int codigo = safe_cast<int>(objData[0]);
-		String^ nombre = safe_cast<String^>(objData[1]);
-		String^ apellidoPaterno = safe_cast<String^>(objData[2]);
-		String^ apellidoMaterno = safe_cast<String^>(objData[3]);
-		String^ identificacion = safe_cast<String^>(objData[4]);
-		int edad = safe_cast<int>(objData[5]);
-		int celular = safe_cast<int>(objData[6]);
-		String^ sexo = safe_cast<String^>(objData[7]);
-		ClienteEncontrado = gcnew Cliente(codigo, nombre, apellidoPaterno, apellidoMaterno, identificacion, edad, celular, sexo);
-	}
-	cerrarConexion();
-	return ClienteEncontrado;
-}
-
-void clienteController::actualizarCliente(Cliente^ objCliente) {
-	abrirConexion();
-	SqlCommand^ objSentencia = gcnew SqlCommand();
-	objSentencia->Connection = this->objConexion;
-	objSentencia->CommandText = "UPDATE _Cliente SET nombre = '" + objCliente->nombre +"', apellidoPaterno = '" + objCliente->apellidoPaterno + "', apellidoMaterno = '" + objCliente->apellidoMaterno + "', identificacion = " + objCliente->identificacion + ", edad = " + objCliente->edad + ", celular = " + objCliente->celular + ", sexo = '" + objCliente->sexo + "' where codigo = " + objCliente->codigo + ";";
-	objSentencia->ExecuteReader();
-	cerrarConexion();
-}
-void clienteController::agregarCliente(String^ nombre, String^ apellidoPaterno, String^ apellidoMaterno, String^ identificacion, int edad, int celular, String^ sexo) {
-	abrirConexion();
-	SqlCommand^ objSentencia = gcnew SqlCommand();
-	objSentencia->Connection = this->objConexion;
-	objSentencia->CommandText = "INSERT INTO _Cliente(nombre, apellidoPaterno, apellidoMaterno, identificacion, edad, celular, sexo) VALUES('" + nombre + "','" + apellidoPaterno + "', '" + apellidoMaterno + "', " + identificacion + " ," + edad + "," + celular + ",'" + sexo + "');";
-	objSentencia->ExecuteReader();
-	cerrarConexion();
+Cliente^ clienteController::buscarClientexIdentificacion(int identificacion) {
+    Cliente^ ClienteEncontrado = nullptr;
+    abrirConexion();
+    SqlCommand^ objSentencia = gcnew SqlCommand();
+    objSentencia->Connection = this->objConexion;
+    objSentencia->CommandText = "select * from _Cliente where identificacion='" + identificacion + "';";
+    SqlDataReader^ objData = objSentencia->ExecuteReader();
+    while (objData->Read()) {
+        String^ nombreCliente = safe_cast<String^>(objData[1]);
+        String^ apellidoCliente = safe_cast<String^>(objData[2]);
+        int identificacionCliente = safe_cast<int>(objData[3]);
+        int edad = safe_cast<int>(objData[4]);
+        int celular = safe_cast<int>(objData[5]);
+        String^ sexo = safe_cast<String^>(objData[6]);
+        ClienteEncontrado = gcnew Cliente(nombreCliente, apellidoCliente, identificacionCliente, edad, celular, sexo);
+    }
+    cerrarConexion();
+    return ClienteEncontrado;
 }
 
 void clienteController::abrirConexion() {
-	this->objConexion->ConnectionString = "Server=200.16.7.140;DataBase=a20191304;User Id=a20191304;Password=3GK4jHmL";
-	this->objConexion->Open();
+    this->objConexion->ConnectionString = "Server=200.16.7.140;DataBase=a20191304;User Id=a20191304;Password=3GK4jHmL";
+    this->objConexion->Open();
 }
 
 void clienteController::cerrarConexion() {
-	this->objConexion->Close();
+    this->objConexion->Close();
 }
